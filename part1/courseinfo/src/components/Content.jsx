@@ -1,7 +1,7 @@
 import Part from './Part';
 
 const Content = ({ course }) => {
-	let parts = course.parts;
+	const parts = course.parts;
 
 	return (
 		<>
